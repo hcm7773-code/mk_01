@@ -1,0 +1,6 @@
+{
+  "name": "葉黃素市場聲量與社群口碑摘要",
+  "description": "葉黃素市場聲量與社群口碑分析：彙整 OpView 葉黃素市場關鍵字、聲量趨勢、情緒分析、消費者關注要點與輿情應變建議。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
