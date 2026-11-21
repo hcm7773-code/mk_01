@@ -5,6 +5,7 @@ import { CompetitorComparisonSection } from './components/CompetitorComparisonSe
 import { ConsumerFocusSection } from './components/ConsumerFocusSection';
 import { KeywordMatrixSection } from './components/KeywordMatrixSection';
 import { StrategyAndRiskTab } from './components/StrategyAndRiskTab';
+import { TopSpotlightCarousel } from './components/TopSpotlightCarousel';
 import { VolumeAndSentimentSection } from './components/VolumeAndSentimentSection';
 import {
   KPI_METRICS,
@@ -203,6 +204,8 @@ export default function App() {
 
       {/* Main Content Container */}
       <main id="top" className="no-print flex-1 max-w-[1200px] w-full mx-auto px-4 sm:px-8 py-6 sm:py-8">
+        <TopSpotlightCarousel />
+
         {/* Hero Split */}
         <div id="overview" className="scroll-mt-24 pb-8 border-b border-slate-200/80">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-stretch">
